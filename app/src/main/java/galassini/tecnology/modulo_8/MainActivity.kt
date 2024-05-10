@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
             updateDisplayText(userName)
         }
 
-        // Adiciona um ouvinte de texto ao EditText
         nameEditText.setOnEditorActionListener { _, _, _ ->
             val userName = nameEditText.text.toString()
             updateDisplayText(userName)
